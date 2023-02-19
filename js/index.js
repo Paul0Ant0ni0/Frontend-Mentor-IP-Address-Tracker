@@ -73,7 +73,7 @@ async function getIpClient() {
 function initialize() {
     if (sessionStorage.length > 0) {
         const data = JSON.parse(sessionStorage.getItem("ip"));
-        (data != null) ? render(data) : getIp("8.8.8.8");
+        if(data != null)  render(data);
 
     }
 }
@@ -116,7 +116,6 @@ function render(data) {
     componentes[0].elements[3].innerText = data.isp;
     const greenIcon = L.icon({
         iconUrl: './assets/images/icon-location.svg',
-
         iconSize: [38, 95],
         shadowSize: [50, 64],
         iconAnchor: [22, 94],
