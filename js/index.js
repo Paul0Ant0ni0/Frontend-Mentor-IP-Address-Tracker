@@ -50,7 +50,7 @@ async function getIpClient() {
     componentes[0].autoriz[2].addEventListener("click", () => {
         auth = true;
         sessionStorage.setItem("auth", true);
-        omponentes[0].dialog.classList.add("modal-close");
+        componentes[0].dialog.classList.add("modal-close");
         setInterval(() => {
             componentes[0].dialog.close();
         }, 1000);
@@ -62,7 +62,7 @@ async function getIpClient() {
         setInterval(() => {
             componentes[0].dialog.close();
         }, 1000);
-      
+        getIp("8.8.8.8")
         
 
     });
