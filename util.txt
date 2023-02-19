@@ -1,0 +1,10 @@
+https://www.delftstack.com/pt/howto/javascript/get-ip-address-javascript/
+https://leafletjs.com/reference.html#map-factory
+https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0
+https://ipinfo.io/account/home
+
+
+REFERENCIAS
+
+https://programandosolucoes.dev.br/2022/08/09/dialog-html/
+https://www.cssmatic.com/box-shadow
