@@ -138,6 +138,6 @@ function error() {
         componentes[0].search.classList.remove("error")
     }, 5000);
 }
-
+getIp("8.8.8.8");
 getIpClient();
 initialize()
